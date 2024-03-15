@@ -38,7 +38,7 @@ public class P_RESTA extends AppCompatActivity {
             double num1 = Double.parseDouble(valor1.getText().toString());
             double num2 = Double.parseDouble(valor2.getText().toString());
 
-            Double resta= num1+num2;
+            Double resta= num1-num2;
             resultado.setText(resta+"");
         }
     }
